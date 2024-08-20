@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website demo</title>
+    <style>
+        *{
+            margin: 0px auto;
+        }
+        body {
+            margin: 0;
+            font-family: Open sans, sans-serif;
+        }
+        header {
+            background-color: #e48454;
+            color: white;
+            text-align: center;
+            padding: 1em;
+            height: 100px;
+            width: auto;
+        }
+        nav {
+            background-color: #abd4ad;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            height: 20px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        .container {
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .main {
+            display: flex;
+            flex-grow: 1;
+            height: 500px;
+            width: 1140px;
+        }
+        aside {
+            width: 40%;
+            background-color: #f4f4f4;
+            padding: 10px;
+        }
+        section {
+            width: 60%;
+            flex-grow: 1;
+            background-color: #eaeaea;
+            padding: 10px;
+        }
+        footer {
+            background-color: #ed6674;
+            color: white;
+            text-align: center;
+            padding: 1em;
+        }
+        section h2{
+            color: #566f1b;
+            text-transform: uppercase;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>quynh giang</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Blog</a>
+        <a href="#">Contact</a>
+    </nav>
+    <div class="container">
+        <div class="main">
+            <aside>
+                <h2>Left bar</h2>
+                <p>Content.</p>
+            </aside>
+            <section>
+                <h2> information</h2>
+                <p>Content Website.</p>
+            </section>
+        </div>
+    </div>
+    <footer>
+        <p>Copyright © 2024</p>
+    </footer>
+</body>
+</html>
+
